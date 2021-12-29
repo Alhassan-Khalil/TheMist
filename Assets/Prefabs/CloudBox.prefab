@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1441101569642173692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1441101569642173691}
+  - component: {fileID: 1441101569642173690}
+  - component: {fileID: 1441101569642173693}
+  m_Layer: 0
+  m_Name: CloudBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1441101569642173691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441101569642173692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 490.53, z: 0}
+  m_LocalScale: {x: 2000, y: 763.4, z: 2000}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1441101569642173690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441101569642173692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88673122a5d0f246b73186f2d9e5897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudScale: 1
+  densityMultiplier: 2.8
+  noiseWeights: {x: 3.8, y: 0.19, z: 0.1, w: 0.08}
+  detailScale: 2.28
+  detailMultiplier: 9.52
+  detailNoiseWeights: {x: 1.5, y: 0.37, z: 0.53}
+  volumeOffset: 9.13
+  densityOffset: 13.23
+  heightMapFactor: 1
+  marchSteps: 16
+  rayOffset: 50
+  blueNoise: {fileID: 2800000, guid: a17f2ff6468d16f479385ec70b60f2f1, type: 3}
+  brightness: 0.426
+  transmitThreshold: 0.535
+  inScatterMultiplier: 0.611
+  outScatterMultiplier: 0.447
+  forwardScattering: 0.686
+  backwardScattering: 0.564
+  scatterMultiplier: 1
+  cloudSpeed: {x: 0.2, y: 0, z: 0.1}
+  detailSpeed: {x: 0.1, y: -0.4, z: 0}
+--- !u!114 &1441101569642173693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441101569642173692}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b55e471608acd44b6a2a90c0ee37b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noiseCompute: {fileID: 7200000, guid: 81d63ababd94e6a4dad562041eda9be1, type: 3}
+  activeTextureType: 0
+  activeChannel: 3
+  activeSettings:
+    type: 0
+    channel: 3
+    seed: 242634810
+    mix: 0.789
+    frequencyA: 52
+    frequencyB: 54
+    frequencyC: 56
+  crossSection: {fileID: 7200000, guid: e89b1ad33a0b3a44585df946e55d41ff, type: 3}
+  settingsList:
+  - type: 0
+    channel: 0
+    seed: 1369086164
+    mix: 0.59375
+    frequencyA: 3
+    frequencyB: 10
+    frequencyC: 23
+  - type: 0
+    channel: 1
+    seed: 242634810
+    mix: 0.8345
+    frequencyA: 10
+    frequencyB: 18
+    frequencyC: 14
+  - type: 0
+    channel: 2
+    seed: 242634810
+    mix: 0.789
+    frequencyA: 34
+    frequencyB: 35
+    frequencyC: 37
+  - type: 0
+    channel: 3
+    seed: 242634810
+    mix: 0.789
+    frequencyA: 52
+    frequencyB: 54
+    frequencyC: 56
+  - type: 1
+    channel: 0
+    seed: 242634810
+    mix: 0.789
+    frequencyA: 6
+    frequencyB: 10
+    frequencyC: 15
+  - type: 1
+    channel: 1
+    seed: 1232041087
+    mix: 0.789
+    frequencyA: 24
+    frequencyB: 26
+    frequencyC: 32
+  - type: 1
+    channel: 2
+    seed: 242634810
+    mix: 0.789
+    frequencyA: 38
+    frequencyB: 44
+    frequencyC: 47
+  shapeTexture: {fileID: 0}
+  detailTexture: {fileID: 0}
