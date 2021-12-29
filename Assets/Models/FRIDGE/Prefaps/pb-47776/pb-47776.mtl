@@ -1,0 +1,88 @@
+
+newmtl 1
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd TexturesCom_Fiberglass0003_S.jpg
+
+
+
+newmtl 3
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+
+
+
+
+newmtl 2
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd TexturesCom_Fiberglass0016_1_seamless_S.jpg
+
+
+
+newmtl 6
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd TexturesCom_Plastic0101_1_seamless_S.jpg
+
+
+
+newmtl 7
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd TexturesCom_Fiberglass0016_1_seamless_S.jpg
+
+
+
+newmtl 4
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd TexturesCom_Vents0249_1_S.jpg
+
+
+
+newmtl 5
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd TexturesCom_Fiberglass0015_1_seamless_S.jpg
+
+
+
+newmtl Transparent
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+map_Kd TexturesCom_Fiberglass0016_1_seamless_S.jpg
+
+
