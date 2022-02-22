@@ -18,7 +18,7 @@ MonoBehaviour:
     Downsample: 0
     Source: 1
     NormalSamples: 1
-    Intensity: 3
+    Intensity: 3.1
     DirectLightingStrength: 0.4
     Radius: 0.25
     SampleCount: 6
@@ -37,7 +37,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: -1234184917484783359}
   - {fileID: 917559743623953340}
-  m_RendererFeatureMap: 01b92c465b4bdfeebc7be7b2b9d3bb0c
+  - {fileID: 7408363153035886641}
+  m_RendererFeatureMap: 01b92c465b4bdfeebc7be7b2b9d3bb0c3100cc5709cbcf66
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -78,18 +79,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836fba37e8552f541abf20055e192196, type: 3}
   m_Name: NewAtmosphericFogRenderFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
-    color: {r: 0.7076807, g: 0.8031244, b: 0.8773585, a: 1}
-    sunColor: {r: 0.6603774, g: 0.6570677, b: 0.65103245, a: 1}
-    fogDensity: 0.01
-    fogDensityPower: 3.1
-    skyAlpha: 0.353
+    color: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
+    sunColor: {r: 0.5943396, g: 0.5943396, b: 0.5522873, a: 1}
+    fogDensity: 0.02
+    fogDensityPower: 1.65
+    skyAlpha: 0.18
     useHeightFog: 0
-    fogHeightStart: 0
-    fogHeightEnd: 30
-    fogHeightPower: 0.5
+    fogHeightStart: 20
+    fogHeightEnd: 27
+    fogHeightPower: 5.2
     extraFogHeightEnd: 2.77
-    extraFogHeightPower: 0.62
+    extraFogHeightPower: 2.5
     directionalIntesity: 1
     directionalPower: 1
+--- !u!114 &7408363153035886641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98936c4d299db4f49953170b65e7df0a, type: 3}
+  m_Name: NewVolumetricLightScattering
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    resolutionScale: 0.1
+    intensity: 0.21
+    blurWidth: 1
